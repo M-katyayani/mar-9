@@ -1,0 +1,18 @@
+str="FLOWER is beautiful.i have brought 45 flowers to home.we have different types of flower"
+lower=upper=digit=alpha=1
+for i in str: 
+   if i.isupper(): 
+        upper+=1
+   elif i.islower(): 
+        lower+=1
+   elif i.isdigit():
+        digit+=1
+   else: 
+        continue
+        for i in str: 
+               if i.isalpha(): 
+                    alpha+=1
+print(upper)
+print (lower)
+print(digit)
+Print (alpha)
